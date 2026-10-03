@@ -1,0 +1,52 @@
+<!-- Name: Muhammad Affan Haider -->
+<!-- Registration Number: 2600018 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>To-Do List</h1>
+
+        <form id="taskForm">
+
+            <input type="text" id="taskInput" placeholder="Enter a task">
+
+            <button type="submit">Add Task</button>
+
+        </form>
+
+        <p id="error"></p>
+
+        <div class="counter">
+
+            <span>Total: <b id="total">0</b></span>
+
+            <span>Remaining: <b id="remaining">0</b></span>
+
+        </div>
+
+        <div class="filters">
+
+            <button id="all">All</button>
+            <button id="active">Active</button>
+            <button id="completed">Completed</button>
+
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <button id="clearCompleted">Clear Completed</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
